@@ -28,11 +28,6 @@ const countdown = () => {
 countdown();
   setInterval(countdown , 1000);
 
-//Ticking Sound
-function tick(){
-	var audio = new Audio("tick.mp3");
-	audio.play();
-}
 tick();
 setInterval(tick, 10000);
   
